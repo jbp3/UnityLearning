@@ -1,48 +1,24 @@
 Initialize engine version: 5.6.0f3 (497a0f351392)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
-    Vendor:   Intel
-    VRAM:     1643 MB
-    Driver:   20.19.15.4549
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K620 (ID=0x13bb)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   21.21.13.7684
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.174 seconds
-Platform assembly: C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Trey\Documents\TreeFrog1.0.2\TreeFrog1.0.2_DEV_Data\Managed\System.dll (this message is harmless)
-desktop: 1600x900 59Hz; virtual: 2966x900 at 0,0
+Platform assembly: C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.018 seconds
+Platform assembly: C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Game Code\UnityLearning\TreeFrog1.0.2_DEV_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 4200x1921 at -1200,-568
 <RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 1.986028 ms
-Check point reached!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.865981 ms
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1248.
-Total: 0.443205 ms (FindLiveObjects: 0.083509 ms CreateObjectMapping: 0.048052 ms MarkObjects: 0.292515 ms  DeleteObjects: 0.018194 ms)
-
-Check point reached!
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.991381 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1248.
-Total: 0.362495 ms (FindLiveObjects: 0.073245 ms CreateObjectMapping: 0.038722 ms MarkObjects: 0.243996 ms  DeleteObjects: 0.006064 ms)
-
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 93c -> priority: 1 
-  Thread -> id: 2550 -> priority: 1 
