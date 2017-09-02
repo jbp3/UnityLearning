@@ -89,6 +89,7 @@
     <Compile Include="Assets\scripts\enemy.cs" />
     <Compile Include="Assets\scripts\follow_path.cs" />
     <Compile Include="Assets\scripts\level_manager.cs" />
+    <Compile Include="Assets\scripts\oneway_collision.cs" />
     <Compile Include="Assets\scripts\path.cs" />
     <Compile Include="Assets\scripts\player_controller.cs" />
     <Compile Include="Assets\scripts\power_up.cs" />
