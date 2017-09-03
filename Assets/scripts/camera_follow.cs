@@ -18,8 +18,10 @@ public class camera_follow : MonoBehaviour
         {
             Vector3 pos = target.position;
             pos -= Vector3.forward * distance;
+            pos.y = pos.y + 15f;
+            pos.x = pos.x + 15f;
             transform.position = pos;
-            transform.LookAt(target);
+           // transform.LookAt(target);
         }
     }
 

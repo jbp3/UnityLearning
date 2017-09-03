@@ -23,9 +23,14 @@ public class enemy : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
 
             LevelManager.RemoveHealth(value);
+        }
+
+        if (other.tag == "world_object")
+        {
+            Destroy(other);
         }
     }
 }

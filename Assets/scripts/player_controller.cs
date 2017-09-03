@@ -17,6 +17,7 @@ public class player_controller : MonoBehaviour {
     public LayerMask GroundLayer;
     private bool IsGrounded;
     public int health;
+ 
 
     void Start()
     {
@@ -30,21 +31,12 @@ public class player_controller : MonoBehaviour {
 
     void Update()
     {
-        //checks if any object on ground layer is within radius of ground check game object attached to players feet.
-         IsGrounded = Physics2D.OverlapCircle(GroundCheckPoint.position, GroundCheckRadius, GroundLayer);
-        //player can only jump when grounded 
-
+        IsGrounded = Physics2D.OverlapCircle(GroundCheckPoint.position, GroundCheckRadius, GroundLayer);
         if (Input.GetKey(KeyCode.Space))
         {
             if(IsGrounded)
-            Rb.velocity = new Vector2(Rb.velocity.x, Jump_height);
-
-            //if (transform.position.x < -1)
-            //    Rb.velocity = new Vector2(Rb.velocity.x, Jump_height);
+                Rb.velocity = new Vector2(Rb.velocity.x, Jump_height);
         }
-       
-
-     
 
         if (Input.GetKey(KeyCode.D))
         {
@@ -76,14 +68,5 @@ public class player_controller : MonoBehaviour {
             RespawnPoint = other.transform.position;
         }
 
-        //if (other.tag == "enemy")
-        //{
-        //    LevelManager.RemoveHealth(5);
-        //}
-
-        //if (other.tag == "power_up")
-        //{
-        //    LevelManager.AddHealth(5);
-        //}
     }
 }
