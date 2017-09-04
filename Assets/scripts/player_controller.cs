@@ -32,20 +32,30 @@ public class player_controller : MonoBehaviour {
     void Update()
     {
         IsGrounded = Physics2D.OverlapCircle(GroundCheckPoint.position, GroundCheckRadius, GroundLayer);
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetButton("Jump"))
         {
-            if(IsGrounded)
+
+            if (Input.GetButton("Fire1"))
+                Jump_height  = 20;
+
+            if (IsGrounded)
                 Rb.velocity = new Vector2(Rb.velocity.x, Jump_height);
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetAxis("Horizontal") > 0)
         {
+            if (Input.GetButton("Fire1"))
+                Walk_speed = 10;
+            
             Rb.velocity = new Vector2(Walk_speed, Rb.velocity.y);
             transform.localScale = new Vector2(1f, 1f);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetAxis("Horizontal") < 0)
         {
+            if (Input.GetButton("Fire1"))
+                Walk_speed = 10;
+
             Rb.velocity = new Vector2(-Walk_speed, Rb.velocity.y);
             transform.localScale = new Vector2(-1f, 1f);
         }

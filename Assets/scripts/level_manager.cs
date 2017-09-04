@@ -23,7 +23,9 @@ public class level_manager : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
+        if (health <= 0)
+            Respawn();
+        
     }
     public void Respawn()
     {

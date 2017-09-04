@@ -13,18 +13,10 @@ public class ladder : MonoBehaviour {
     {
         if (OnLadder)
         {
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetAxis("Vertical") > 0)
             {
 
                 player.velocity = new Vector2(player.velocity.x, 5f);
-
-            }
-
-            if (Input.GetKey(KeyCode.S))
-            {
-
-
-                player.velocity = new Vector2(player.velocity.x,-5f);
 
             }
         }
